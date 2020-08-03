@@ -350,14 +350,14 @@
               <div class="email">
                 <i class="icofont-envelope"></i>
                 <h4>Email:</h4>
-                <p>mfive.innovations@gmai.com</p>
+                <p>mfive.innovations@gmail.com</p>
               </div>
 
-              <div class="phone">
+              <!-- <div class="phone">
                 <i class="icofont-phone"></i>
                 <h4>Call:</h4>
                 <p>+1 5589 55488 55s</p>
-              </div>
+              </div> -->
 
             </div>
 
@@ -365,7 +365,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://formspree.io/mpzybjbe" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -388,12 +388,14 @@
                   data-msg="Please write something for us" placeholder="Message"></textarea>
                 <div class="validate"></div>
               </div>
+
               <div class="mb-3">
-                <div class="loading">Loading</div>
+                <!-- <div class="loading">Loading</div> -->
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button id="submit_form" type="submit">Send Message</button></div>
+
             </form>
 
           </div>
